@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  margin-left: 5vw;
+}
+.home-container {
+  width: 70vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+  position: absolute;
+  z-index: 1;
+}
+.background {
+  height: 60vh;
+  width: 20vw;
+  background-color: rgb(147, 199, 42);
+  position: absolute;
+}
+.profile-image {
+  position: relative;
+  left: 70px;
+  top: 160px;
+}
+
+.profile {
+  position: relative;
+  left: 62%;
+}
+
+.about-rachel {
+  width: 30vw;
+  position: relative;
+  top: -200px;
+  padding: 5%;
+}
+
+.btn {
+  background-color: rgb(147, 199, 42);
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 120px;
+  font-weight: bold;
+}
+.about {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -200px;
+}
+.my-main-hustle {
+  width: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: -200px;
+  left: 100px;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.right {
+  width: 50%;
+}
+.education-desc-1 {
+  color: rgb(147, 199, 42);
+  font-weight: bold;
+}
+
+.school {
+  font-weight: bold;
+}
+
+.my-work {
+  text-align: center;
+  position: relative;
+  top: -300px;
+}
+
+.my-work > h1 {
+  font-weight: bold;
+}
+
+.my-work > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.my-work > div > p {
+  width: 40%;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: -220px;
+  margin-left: 50px;
+}
+.project-container {
+  padding: 1%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+.project {
+  width: 60%;
+}
+.upper-notation {
+  background-color: rgb(147, 199, 42);
+  height: 25px;
+  width: 15px;
+  position: relative;
+  top: -150px;
+  left: 20px;
+}
+
+.title {
+  margin-top: -20px;
+  font-weight: bold;
+}
+
+.project > p {
+  /* width: 70%; */
+  font-weight: bold;
+}
+
+.see-project {
+  color: rgb(147, 199, 42);
+  font-weight: bold;
+}
+
+.journey {
+  width: 100%;
+  display: flex;
+  position: relative;
+  top: -280px;
+}
+
+.para {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  padding: 5%;
+}
+
+.sub-para {
+  width: 30%;
+  padding: 3%;
+  margin-left: 2%;
+}
+.right-side {
+  padding: 8%;
+  position: relative;
+  left: 160px;
+}
+.background-box {
+  background-color: rgb(147, 199, 42);
+  height: 280px;
+  width: 320px;
+}
+
+.text {
+  width: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 70px;
+  position: relative;
+  top: -250px;
+  left: 50px;
+}
+
+.my-side-hustle {
+  display: flex;
+  position: relative;
+  top: -300px;
+}
+
+.left {
+  width: 22%;
+  position: relative;
+  left: 100px;
+  top: 200px;
+}
+.text1 {
+  width: 20%;
+  color: rgb(147, 199, 42);
+  font-size: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+.images {
+  display: flex;
+  position: relative;
+  left: 650px;
+}
+.images > span {
+  display: flex;
+  flex-direction: column;
+}
+.about-contact {
+  height: 150px;
+  background-color: rgb(147, 199, 42);
+  width: 25%;
+  padding: 5%;
+  color: white;
+  font-weight: bold;
+}
+.mail {
+  color: white;
+  position: relative;
+  top: -20px;
+}
+.footer {
+  display: flex;
+}
+
+.rights {
+  position: relative;
+  top: 150px;
+  left: 800px;
+}
